@@ -32,7 +32,7 @@ class _DiceeState extends State<DicePage> {
       leftDiceNumber = Random().nextInt(6) + 1;
       richtDiceNumber = Random().nextInt(6) + 1;
       print('leftDiceNumber = $leftDiceNumber');
-      print('richtDiceNumber = $richtDiceNumber');
+      print('richtDiceNumber = $leftDiceNumber');
     });
   }
 
