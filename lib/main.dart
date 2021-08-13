@@ -23,9 +23,12 @@ class DicePage extends StatefulWidget {
   _DiceeState createState() => _DiceeState();
 }
 
+
+
 class _DiceeState extends State<DicePage> {
   int leftDiceNumber = 1;
   int richtDiceNumber = 2;
+  
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -37,6 +40,7 @@ class _DiceeState extends State<DicePage> {
               onPressed: () {
                 setState(() {
                   leftDiceNumber = Random().nextInt(6) + 1;
+                  richtDiceNumber = Random().nextInt(6) + 1;
                   print('leftDiceNumber = $leftDiceNumber');
                 });
               },
@@ -48,6 +52,7 @@ class _DiceeState extends State<DicePage> {
             child: TextButton(
               onPressed: () {
                 setState(() {
+                  leftDiceNumber = Random().nextInt(6) + 1;
                   richtDiceNumber = Random().nextInt(6) + 1;
                   print('richtDiceNumber = $richtDiceNumber');
                 });
