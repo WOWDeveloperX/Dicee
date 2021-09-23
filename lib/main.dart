@@ -7,10 +7,10 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.greenAccent,
         appBar: AppBar(
-          title: Text('S   U   P   E  R',
+          title: Text(' S   U   P   E  R',
               style: TextStyle(
                   fontFamily: 'Pacifico',
-                  fontSize: 50,
+                  fontSize: 44,
                   color: Colors.red.shade100)),
           backgroundColor: Colors.blueAccent[100],
         ),
@@ -89,13 +89,13 @@ class _DiceeState extends State<DicePage> {
               children: [
                 Container(
                   child: Center(
-                    child: Text('D    I    C    E    E',
+                    child: Text('D   I   C   E   E',
                         style: TextStyle(
                             fontFamily: 'Source Sans Pro',
                             fontSize: 45,
                             color: Colors.white)),
                   ),
-                  width: 428,
+                  width: 360,
                   height: 80,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
